@@ -17,7 +17,7 @@ while 1:
    send_data="connected.."
    res = send_data.encode('utf-8')
    serial_rs232.write(res)
-   serial_rs232.flush()  # send_byte= ''.jo(ord(i), 'b') for i in send_data)
+   #serial_rs232.flush()  # send_byte= ''.jo(ord(i), 'b') for i in send_data)
    #print(send_byte)
    time.sleep(1)
    print(X)
